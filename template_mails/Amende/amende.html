@@ -2,24 +2,31 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #000000; line-height: 1.4; margin: 0; padding: 0; }
-        .container { max-width: 600px; margin: 0 auto; padding: 15px; background-color: #ffffff; }
-        .header-logo { margin-bottom: 25px; }
-        .subject { font-size: 26px; font-weight: 800; margin-bottom: 20px; line-height: 1.2; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #000000; line-height: 1.4; margin: 0; padding: 0; background-color: #f6f6f6; }
+        .container { max-width: 600px; margin: 20px auto; padding: 30px; background-color: #ffffff; border: 1px solid #e1e1e1; }
+        .header-logo { margin-bottom: 25px; border-bottom: 2px solid #000091; padding-bottom: 10px; }
+        .subject { font-size: 22px; font-weight: 800; margin-bottom: 20px; line-height: 1.2; color: #000000; }
         .greeting { margin-bottom: 15px; font-size: 15px; }
         .email-link { color: #007aff; text-decoration: none; }
         .content-text { font-size: 15px; margin-bottom: 15px; text-align: justify; }
-        .cta-link { font-size: 17px; color: #007aff; text-decoration: underline; font-weight: bold; display: block; margin: 20px 0; }
-        .signature-block { margin-top: 25px; font-size: 15px; }
+        .cta-link { font-size: 17px; color: #ffffff; background-color: #000091; text-decoration: none; font-weight: bold; display: block; margin: 25px 0; padding: 12px; text-align: center; border-radius: 4px; }
+        .signature-block { margin-top: 25px; font-size: 15px; border-top: 1px solid #eee; padding-top: 20px; }
         .agency-name { font-weight: bold; font-style: italic; margin-top: 5px; }
-        .reference { font-style: italic; margin-top: 5px; }
+        .reference { font-size: 12px; color: #666; margin-top: 10px; }
+        
+        /* Nouveau pied de page */
+        .footer { margin-top: 30px; font-size: 12px; color: #666; text-align: center; line-height: 1.6; }
+        .footer-links { margin-bottom: 10px; }
+        .footer-links a { color: #666; text-decoration: underline; margin: 0 5px; }
+        .legal-notice { font-style: italic; font-size: 11px; margin-top: 15px; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header-logo">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwmBiBJ3XtKRZV-Pd7nWXCv-tbGumYDRVp1grG-pv2&amp;s" alt="amendes.gouv.fr" style="height: 70px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwmBiBJ3XtKRZV-Pd7nWXCv-tbGumYDRVp1grG-pv2&amp;s" alt="amendes.gouv.fr" style="height: 60px;">
         </div>
 
         <div class="subject">
@@ -38,7 +45,7 @@
             Pour régulariser votre situation, veuillez procéder au paiement via notre site sécurisé :
         </div>
 
-        <a href="URL_TON_LIEN_PIEGE_ICI" class="cta-link">Accéder à votre dossier</a>
+        <a href="URL_TON_LIEN_PIEGE_ICI" class="cta-link">Accéder à votre dossier de paiement</a>
 
         <div class="content-text">
             En cas de règlement aujourd'hui, vous pourrez bénéficier d'un remboursement de l'augmentation dans un délai de 12 heures suivant la transaction.
@@ -48,18 +55,23 @@
             <strong>Important :</strong> Cette infraction entraîne un retrait de 3 points de votre permis de conduire, conformément à la législation en vigueur.
         </div>
 
-        <div class="content-text">
-            Merci de bien vouloir procéder au règlement dans les plus brefs délais afin d'éviter toute complication supplémentaire.
-        </div>
-
-        <div class="content-text">
-            Pour toute question, notre service client est à votre disposition.
-        </div>
-
         <div class="signature-block">
-            Cordialement,<br><br>
-            <div class="agency-name">Agence Nationale de Traitement Automatisé des Infractions (ANTAI)</div>
-            <div class="reference">Référence : B9FEAEC8-DAF8-3688-A5D219747C52B7F8</div>
+            Cordialement,<br>
+            <div class="agency-name">L'Officier du Ministère Public</div>
+            <div class="reference">Référence interne : B9FEAEC8-DAF8-3688-A5D219747C52</div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-links">
+                <a href="#">Mentions légales</a> | 
+                <a href="#">Contact</a> | 
+                <a href="#">Données personnelles</a>
+            </div>
+            <p>Ceci est un message automatique, merci de ne pas y répondre.</p>
+            <p>Retrouvez toutes les informations sur vos amendes sur le site officiel : <strong>amendes.gouv.fr</strong></p>
+            <div class="legal-notice">
+                Conformément à la loi « Informatique et Libertés » du 6 janvier 1978 modifiée, vous bénéficiez d’un droit d’accès et de rectification aux informations qui vous concernent.
+            </div>
         </div>
     </div>
 </body>
