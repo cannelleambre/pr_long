@@ -1,7 +1,5 @@
 <!DOCTYPE html> 
-<html lang="fr"> <!-- noreply@un-icc.cloud --> <!-- Nouvelle norme pour l'assurance maladie -->
-<head>
-
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <style>
@@ -12,9 +10,12 @@
         .blue-banner { background-color: #003399; color: #ffffff; text-align: center; padding: 15px; font-weight: bold; font-size: 18px; text-transform: uppercase; margin-bottom: 20px; }
         .button-container { text-align: center; margin: 30px 0; }
         .btn { border: 2px solid #003399; color: #003399; padding: 12px 25px; text-decoration: none; border-radius: 25px; font-weight: bold; font-size: 16px; }
-        .footer-line { border-top: 2px solid #003399; margin-top: 30px; padding-top: 20px; display: flex; align-items: center; }
-        .footer-text { font-size: 14px; color: #666; margin-left: 20px; }
-        .phone-img { width: 80px; }
+        .footer-line { border-top: 2px solid #003399; margin-top: 30px; padding-top: 20px; font-size: 14px; color: #444; }
+        
+        /* Nouvelles classes pour la fin du mail */
+        .legal-footer { margin-top: 20px; padding-top: 20px; border-top: 1px solid #eeeeee; font-size: 11px; color: #999999; text-align: center; line-height: 1.4; }
+        .legal-footer a { color: #999999; text-decoration: underline; }
+        .security-note { background-color: #f9f9f9; padding: 10px; margin-top: 15px; border-radius: 4px; font-style: italic; }
     </style>
 </head>
 <body>
@@ -41,9 +42,16 @@
         <p>Si vous avez des questions ou avez besoin d'aide, contactez-nous en utilisant notre centre d'aide.</p>
 
         <div class="footer-line">
-                <strong>Découvrez la nouvelle carte Vitale digitale e-Vitale :</strong> plus accessible et sécurisée, elle simplifie vos démarches de santé
-            </div>
+            <strong>Découvrez la nouvelle carte Vitale digitale e-Vitale :</strong> plus accessible et sécurisée, elle simplifie vos démarches de santé
         </div>
-    </div>
-{{.Tracker}}</body>
-</html>
+
+        <div class="legal-footer">
+            <div class="security-note">
+                L'Assurance Maladie ne vous demandera jamais vos coordonnées bancaires ou vos mots de passe par email ou SMS.
+            </div>
+            <p>
+                Ceci est un message automatique, merci de ne pas y répondre.<br>
+                Conformément à la loi « Informatique et Libertés », vous disposez d'un droit d'accès et de rectification aux informations qui vous concernent.<br>
+                <a href="#">Consulter nos mentions légales</a> | <a href="#">Politique de confidentialité</a> | <a href="#">Se désabonner</a>
+            </p>
+            <p>© 2026 Assurance Maladie - Tous droits réservés</
