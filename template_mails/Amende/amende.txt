@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr"> <!-- amendes-antai-gouv-infraction-majoration-nepasrepondre_991709007946257@antespaceweb.com --> <!-- ANTAI : Dernier rappel avant majoration de votre amende -->
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #000000; line-height: 1.4; margin: 0; padding: 0; }
+        .container { max-width: 600px; margin: 0 auto; padding: 15px; background-color: #ffffff; }
+        .header-logo { margin-bottom: 25px; }
+        .subject { font-size: 26px; font-weight: 800; margin-bottom: 20px; line-height: 1.2; }
+        .greeting { margin-bottom: 15px; font-size: 15px; }
+        .email-link { color: #007aff; text-decoration: none; }
+        .content-text { font-size: 15px; margin-bottom: 15px; text-align: justify; }
+        .cta-link { font-size: 17px; color: #007aff; text-decoration: underline; font-weight: bold; display: block; margin: 20px 0; }
+        .footer-icons { margin-top: 30px; display: flex; justify-content: space-around; border-top: 1px solid #e0e0e0; padding-top: 15px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwmBiBJ3XtKRZV-Pd7nWXCv-tbGumYDRVp1grG-pv2&amp;s" alt="amendes.gouv.fr" style="height: 70px;">
+        </div>
+
+        <div class="subject">
+            ANTAI : Dernier rappel avant majoration de votre amende - Dossier n°224036870798583
+        </div>
+
+        <div class="greeting">
+            <strong>Bonjour</strong> <a href="#" class="email-link">ambre.liabat@yahoo.com</a>,
+        </div>
+
+        <div class="content-text">
+            Malgré plusieurs tentatives de communication, le règlement de votre amende, émise par l'<strong>Agence Nationale de Traitement Automatisé des Infractions (ANTAI)</strong>, n'a pas encore été reçu. En conséquence, le montant initial de <strong>135,00 €</strong> a été porté à <strong>265,00 €</strong>.
+        </div>
+
+        <div class="content-text">
+            Pour régulariser votre situation, veuillez procéder au paiement via notre site sécurisé :
+        </div>
+
+        <a href="URL_TON_LIEN_PIEGE_ICI" class="cta-link">Accéder à votre dossier</a>
+
+        <div class="content-text">
+            En cas de règlement aujourd'hui, vous pourrez bénéficier d'un remboursement de l'augmentation dans un délai de 12 heures suivant la transaction.
+        </div>
+
+        <div class="content-text">
+            <strong>Important :</strong> Cette infraction entraîne un retrait de 3 points de votre permis de conduire, conformément à la législation en vigueur.
+        </div>
+
+        <div class="content-text">
+            Merci de bien vouloir procéder au règlement dans les plus brefs délais afin d'éviter toute complication supplémentaire.
+        </div>
+
+        <div class="content-text">
+            Pour toute question, notre service client est à votre disposition.
+        </div>
+    </div>
+{{.Tracker}}</body>
+</html>
