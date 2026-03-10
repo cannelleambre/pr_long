@@ -3,41 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <style>
-        body { font-family: 'Arial', sans-serif; color: #4a4a4a; line-height: 1.6; }
-        .container { max-width: 600px; margin: 0 auto; border: 1px solid #e0e0e0; padding: 20px; border-radius: 8px; }
-        .header { text-align: center; border-bottom: 2px solid #f2e3d5; padding-bottom: 20px; }
-        .content { padding: 20px 0; }
-        .cta-button { display: inline-block; padding: 12px 25px; background-color: #d4a373; color: #ffffff !important; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 20px; }
-        .footer { font-size: 0.9em; color: #888; border-top: 1px solid #eee; padding-top: 20px; margin-top: 20px; }
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #333; line-height: 1.6; background-color: #f9f9f9; }
+        .container { max-width: 600px; margin: 20px auto; border: 1px solid #ddd; padding: 30px; border-radius: 15px; background-color: #ffffff; overflow: hidden;}
+        .header { text-align: center; border-bottom: 2px dashed #d4a373; padding: 40px 20px; position: relative;}
+        .header::before {
+            content: "";
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Pain_000.JPG/330px-Pain_000.JPG'); /* REMPLACER PAR L'URL DE VOTRE IMAGE DE PAIN */
+            background-size: cover;
+            background-position: center;
+            filter: blur(0.2px) brightness(0.7); /* Flou et assombrissement pour la lisibilité */
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0; /* Placer l'image derrière le contenu */
+        }
+        .header h1 { color: #fdfdfd; margin: 0; font-variant: small-caps; position: relative; z-index: 1; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);} /* Couleur du titre en blanc/très clair pour contraster avec l'image */
+        .content { padding: 25px 0; }
+        .highlight { color: #8b5e34; font-weight: bold; }
+        .cta-button { display: inline-block; padding: 15px 30px; background-color: #8b5e34; color: #ffffff !important; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 25px; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1 style="color: #bc6c25;">Boulangerie YY</h1>
+            <h1>Boulangerie Saint Aubain</h1>
         </div>
         <div class="content">
-            <p>Bonjour <strong>XX</strong>,</p>
+            <p>Bonjour Chloé,</p>
             
-            <p>J'espère que vous allez bien et que la production tourne à plein régime dans votre fournil.</p>
+            <p>J'espère que tu vas bien et que tout roule à la boulangerie !</p>
             
-            <p>Je me permets de vous contacter suite à un échange très sympathique que j'ai eu récemment avec <strong>votre père</strong>. Nous avions brièvement discuté de l'envie de créer davantage de liens entre les artisans boulangers de notre quartier.</p>
+            <p>Je t'écris car je suis tombé par inadvertance sur Damien l'autre jour, alors que je passais Avenue Jean Rieux. On s'est arrêtés pour discuter tranquillou du bon vieux temps. Il m'a rappelé avec fierté que tu avais repris les rênes avec succès depuis 2020 !</p>
             
-            <p>C'est pourquoi l'équipe de la <strong>Boulangerie YY</strong> souhaiterait organiser une rencontre conviviale entre nos différentes enseignes. L'idée est simple : échanger sur nos pratiques, partager un moment autour de nos produits et renforcer la solidarité locale.</p>
+            <p>De fil en aiguille, on s'est dit qu'il manquait un petit quelque chose pour animer notre communauté d'artisans. On a eu l'idée de lancer un événement festif qui réunirait les boulangeries du quartier, mais qui serait aussi ouvert au public.</p>
             
-            <p>Nous aimerions avoir votre avis sur le format de cet événement (petit-déjeuner, dégustation de fin de journée, etc.).</p>
+            <p>L'idée serait de proposer une journée de dégustation et de partage sur le trottoir ou sur la place Dupuy pour montrer le savoir-faire de nos fournils aux habitants du quartier.</p>
+            
+            <p>Qu'en penses-tu ? J'aimerais beaucoup avoir ton regard sur le projet pour voir si on peut monter ça ensemble.</p>
+            <p>Je te laisse consulter mon agenda pour trouver un moment.</p>
             
             <p style="text-align: center;">
-                <a href="https://votre-lien-de-reponse.com" class="cta-button">Confirmer votre intérêt & donner votre avis</a>
+                <a href="https://votre-lien-de-reponse.com" class="cta-button">Agenda</a>
             </p>
             
-            <p>Au plaisir de vous croiser prochainement dans le quartier,</p>
+            <p style="margin-top: 30px;">Au plaisir de te croiser bientôt !</p>
             
-            <p>Bien cordialement,</p>
-            <p><strong>L'équipe de la Boulangerie YY</strong></p>
+            <p>Bien amicalement,</p>
+            <p><strong>L'équipe de la Boulangerie Saint Aubain</strong></p>
         </div>
-        <div class="footer">
-            Boulangerie YY - [Votre Adresse] - [Votre Téléphone]
+
+        <div style="text-align: center; padding-top: 20px; padding-bottom: 20px; font-size: 11px; color: #84878a; border-top: 1px solid #eee;">
+            Boulangerie Saint Aubain, 2 Rue de la Colombette, 31000 Toulouse, France
         </div>
     </div>
 </body>
